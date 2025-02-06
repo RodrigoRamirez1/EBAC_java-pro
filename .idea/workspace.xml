@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d25f476b-0ca8-4ffe-8495-024a4faaeb50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rramirez/mod_02/CalcularFatorial.java" afterDir="false" />
+    <list default="true" id="d25f476b-0ca8-4ffe-8495-024a4faaeb50" name="Changes" comment="add tarefa modulo 02.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rramirez/mod_05/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rramirez/mod_05/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mod_05/CalculadoraTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mod_05/FibonacciTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rramirez/mod_02/RecursividadeExercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rramirez/mod_02/RecursividadeExercicio1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2rOulKIBCRtYWWA59dgHBbsIScc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,12 +42,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FatorialProgDinamica.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FilaMain.executor": "Run",
+    "Application.ListaMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PilhaMain.executor": "Run",
     "Application.RecursividadeExercicio1.executor": "Run",
+    "JUnit.CalculadoraTeste.adicionarHappyPath.executor": "Run",
+    "JUnit.CalculadoraTeste.dividir.executor": "Run",
+    "JUnit.CalculadoraTeste.dividirHappyPath.executor": "Run",
+    "JUnit.CalculadoraTeste.multiplicarHappyPath.executor": "Run",
+    "JUnit.CalculadoraTeste.subtrairHappyPath.executor": "Run",
+    "JUnit.FibonacciTeste.fibRetornoUm.executor": "Run",
+    "JUnit.FibonacciTeste.fibRetornoZero.executor": "Run",
+    "JUnit.FibonacciTeste.fibonacciHappyPath.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rodri/OneDrive/Área de Trabalho/Projetos Java/dslist",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,13 +75,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="RecursividadeExercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rramirez.mod_02.RecursividadeExercicio1" />
+  <component name="RunManager" selected="JUnit.FibonacciTeste.fibRetornoZero">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rramirez.mod_05.Fibonacci" />
       <module name="ebac_java-pro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rramirez.mod_02.*" />
+          <option name="PATTERN" value="com.rramirez.mod_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +89,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculadoraTeste.dividir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebac_java-pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mod_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mod_05" />
+      <option name="MAIN_CLASS_NAME" value="mod_05.CalculadoraTeste" />
+      <option name="METHOD_NAME" value="dividir" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTeste.fibRetornoUm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebac_java-pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mod_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mod_05" />
+      <option name="MAIN_CLASS_NAME" value="mod_05.FibonacciTeste" />
+      <option name="METHOD_NAME" value="fibRetornoUm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTeste.fibRetornoZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebac_java-pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mod_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mod_05" />
+      <option name="MAIN_CLASS_NAME" value="mod_05.FibonacciTeste" />
+      <option name="METHOD_NAME" value="fibRetornoZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTeste.fibonacciHappyPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebac_java-pro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mod_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mod_05" />
+      <option name="MAIN_CLASS_NAME" value="mod_05.FibonacciTeste" />
+      <option name="METHOD_NAME" value="fibonacciHappyPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RecursividadeExercicio1" />
+        <item itemvalue="JUnit.FibonacciTeste.fibRetornoZero" />
+        <item itemvalue="JUnit.FibonacciTeste.fibRetornoUm" />
+        <item itemvalue="JUnit.FibonacciTeste.fibonacciHappyPath" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="JUnit.CalculadoraTeste.dividir" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,10 +179,38 @@
       <option name="presentableId" value="Default" />
       <updated>1736442599093</updated>
       <workItem from="1736442600524" duration="1747000" />
+      <workItem from="1736528889668" duration="2380000" />
+      <workItem from="1736697572819" duration="11733000" />
+      <workItem from="1736885919663" duration="3979000" />
+      <workItem from="1737399193763" duration="87000" />
+      <workItem from="1738786239180" duration="3285000" />
+      <workItem from="1738845694572" duration="2139000" />
     </task>
+    <task id="LOCAL-00001" summary="add tarefa modulo 01.">
+      <option name="closed" value="true" />
+      <created>1736720129982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736720129982</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add tarefa modulo 02.">
+      <option name="closed" value="true" />
+      <created>1736889315464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736889315464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add tarefa modulo 01." />
+    <MESSAGE value="add tarefa modulo 02." />
+    <option name="LAST_COMMIT_MESSAGE" value="add tarefa modulo 02." />
   </component>
 </project>
